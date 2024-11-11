@@ -19,7 +19,7 @@ const _CURRENT_VERSION = CURRENT_VERSION;
 export { _CURRENT_VERSION as CURRENT_VERSION };
 
 //Service url and endpoints:
-const _SERVICE_URL = 'https://cloud.appscan.com';
+const _SERVICE_URL = 'https://eu.cloud.appscan.com';
 export { _SERVICE_URL as SERVICE_URL };
 const _SACLIENT_PATH = '/api/v4/Tools/SAClientUtil?os=';
 export { _SACLIENT_PATH as SACLIENT_PATH };
