@@ -43,7 +43,7 @@ function getServiceUrl() {
             serviceUrl = constants.SERVICE_URL;
             let asoc_key = process.env.INPUT_ASOC_KEY;
             if(asoc_key && asoc_key.startsWith('eu-central')) {
-                serviceUrl += '/eu';
+                serviceUrl = 'https://eu.cloud.appscan.com';
             }
         }
     }
